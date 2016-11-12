@@ -9,6 +9,10 @@ def getDate():
     timestamp = time.strftime("%H:%M:%S")
     return timestamp
 
+def hello():
+    return 'greetings professor Falken. How about a nice game of chess?'
+    #https://youtu.be/D-9l5jSDL50
+
 def getIceCreamForCurrentAuthLevel(authLevel):
     authLevel = int(authLevel)
     if authLevel is 1:
